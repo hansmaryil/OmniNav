@@ -37,10 +37,22 @@ body {
 -------------------------------------------------- */
 #jumbotron-content{
 	width: 100%;
-	height: 600px;
-	margin: 70px 0px 50px;
-	background: url("../images/background.jpg") center fixed no-repeat;
+	height: 400px;
+	background: url("../images/black_gradient_background.png") center fixed no-repeat;
 	background-size: cover;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#card{
+/*	background: rgba(0,0,0,0);
+*/	position: relative;
+	height: 400px;
+	top: 150px;
+}
+
+#card-content{
+	color: white;
 	text-align: center;
 }
 
@@ -60,3 +72,24 @@ body {
   margin-left: 10px;
 }
 
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
