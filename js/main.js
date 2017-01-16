@@ -1,7 +1,6 @@
-$(document).on('click','.navbar-scroll', function(event) {
-    event.preventDefault();
-    var target = "#" + this.getAttribute('data-target');
+$('.navbar-scroll').click(function () {
+    var divID = '#' + this.id;
     $('html, body').animate({
-        scrollTop: $(target).offset().top
+        scrollTop: $(divID).offset().top
     }, 2000);
 });
