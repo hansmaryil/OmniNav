@@ -44,7 +44,7 @@ body {
 	margin-bottom: 60px;
 }
 
-#card{
+div#card{
 /*	background: rgba(0,0,0,0);
 */	position: relative;
 	height: 400px;
