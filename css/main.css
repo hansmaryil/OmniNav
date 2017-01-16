@@ -119,20 +119,17 @@ div#card{
 }
 
 .profile-header-img {
-    width: auto;
-    height: 150px;
-    border-radius: 30px;
-    position: relative;
-    overflow: hidden;
     padding: 54px;
+}
+
+.profile-header-img > img.img-circle {
+    width: 240px;
+    height: 200px;
     border: 2px solid #51D2B7;
 }
 
-.profile-header-img > img {
-	display: inline;
-	margin: 0 auto;
-	height: 100%;
-	width: auto;
+.profile-header-img > p.text-muted {
+	padding: 10px;
 }
 
 .profile-header {
