@@ -3,8 +3,8 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
+    padding-bottom: 40px;
+    color: #5a5a5a;
 }
 
 
@@ -13,24 +13,25 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    height:20px;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
 }
 .navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .navbar-wrapper .navbar .container {
-  width: auto;
+    width: auto;
 }
 
 /* JumboTron CONTENT
@@ -68,9 +69,9 @@ div#card {
 
 /* FEATURETTE
 -------------------------------------------------- */
-.featurette-divider {
-	margin: 80px 0; /* Space out the bootstrap <hr> tag some more */
-}
+/*.featurette-divider {
+	margin: 30px 0;  Space out the bootstrap <hr> tag some more 
+}*/
 
 /* Thin out the featurette headings */
 .featurette-heading {
@@ -86,8 +87,8 @@ div#card {
 
 /* Center align the text within the two columns below the carousel */
 .page-content .col-lg-6 {
-  margin-bottom: 20px;
-  text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
 }
 .page-content h2 {
   font-weight: normal;

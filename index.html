@@ -30,20 +30,19 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <!-- Custom JS -->
-    <script src="js/main.js"></script>
-
     <body>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <!-- Custom JS -->
+        <script src="js/main.js"></script>
 
         <!-- NAVBAR -->
-        <div class="navbar-wrapper">
+        <div  id="fixed-navbar" class="navbar-wrapper">
             <div class="container">
 
-                <nav class="navbar navbar-inverse navbar-fixed-top">
+                <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                     <div class="container">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -55,7 +54,7 @@
                           <a class="navbar-brand" href="#">OmniNav</a>
                         </div>
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul id="navbar-links" class="nav navbar-nav">
+                            <ul class="nav navbar-nav">
                                 <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
                                 <li><a class="navbar-scroll" href="#" data-target="project-summary">Summary</a></li>
                                 <li><a class="navbar-scroll" href="#" data-target="team">Meet the Team</a></li>
@@ -82,30 +81,34 @@
         </div>
 
         <!-- REST OF THE CONTENT -->
-        <div class="container page-content">
+        <div class="container">
 
             <!-- BACKGROUND INFO -->
-            <div id="background-info" class="row featurette">
+            <div class="row featurette" id="project-summary">
                 <div class="col-md-12">
-                    <h2 class="featurette-heading">What makes this project interesting?</h2>
-                    <p class="lead text-muted">Currently, the World Health Organization estimates the number of visually impaired people in the world to be 285 million, 39 million of which are fully blind.  This population of the world does not have easy access to new technologies that assist with navigation such as Google Maps, or even just the ability to read navigational signs.</p>
+                    <h2 class="featurette-heading">What makes this project interesting? <span class="text-muted">The fact that we're helping people, of course.</span></h2>
+                    <p class="lead">Currently, the World Health Organization estimates the number of visually impaired people in the world to be 285 million, 39 million of which are fully blind.  This population of the world does not have easy access to new technologies that assist with navigation such as Google Maps, or even just the ability to read navigational signs.</p>
                 </div>
             </div>
 
+            <hr class="featurette-divider">
+
             <!-- SUMMARY -->
-            <div id="project-summary" class="row featurette">
+            <div class="row featurette">
                 <div class="col-md-12">
-                    <h2 class="featurette-heading">Our solution?</h2>
-                    <p class="lead text-muted">A belt specifically designed to assist the visually impaired with navigation. We are developing an Android app which takes directional information using voice commands and conveys the required direction via Bluetooth to four vibration motors placed at cardinal directions on the belt.</p>
+                    <h2 class="featurette-heading">Our solution? <span class="text-muted">Simple, yet effective.</span></h2>
+                    <p class="lead">A belt specifically designed to assist the visually impaired with navigation. We are developing an Android app which takes directional information using voice commands and conveys the required direction via Bluetooth to four vibration motors placed at cardinal directions on the belt.</p>
                 </div>
             </div>
+
+            <hr class="featurette-divider">
 
             <!-- Meet the Team -->
             <!-- Two rows with 2 team members and blurb in each row -->
             <div id="team" class="row featurette">
                 <div class="col-md-12">
                     <h2>Who's working on the project?</h2>
-                    <p class="lead text-muted">A team of soon-to-be Mechatronics Engineers from the University of Waterloo - Graduating Class of 2017</p>
+                    <p class="lead">A team of soon-to-be Mechatronics Engineers from the University of Waterloo - Graduating Class of 2017</p>
                 </div>
                 <div class="row">
                     <div class="col-sm-3 profile-header-container">   
