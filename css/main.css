@@ -124,6 +124,17 @@ div#card {
 
 /* Profile image component
 -------------------------------------------------- */
+.team-header-container {
+    text-align: center;
+    overflow: hidden;
+}
+
+.team-header-img {
+    width: 75%;
+    height: auto;
+    border-radius: 27px;
+}
+
 .profile-header-container{
     margin: 0 auto;
     text-align: center;
