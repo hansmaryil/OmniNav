@@ -2,6 +2,7 @@
 layout: post
 title: "OmniNav Launches Site"
 date: 2017-01-10
+poster: "OmniNav Team"
 ---
 
 Welcome to our Blog!
