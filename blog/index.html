@@ -16,7 +16,7 @@ title: Our Blog
                         {{ post.subtitle }}
                     </h3>
                 </a>
-                <p class="post-meta">Posted by {{ post.poster }} on {{ post.date_to_long_string }}</p>
+                <p class="post-meta">Posted by {{ post.poster }} on {{ post.date | date_to_long_string }}</p>
             </div>
             <hr>
         {% endfor %}
