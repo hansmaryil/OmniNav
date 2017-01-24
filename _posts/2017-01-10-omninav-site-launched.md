@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OmniNav Launches Site"
+subtitle: "We've Launched!!!"
 date: 2017-01-10
 poster: "OmniNav Team"
 ---
