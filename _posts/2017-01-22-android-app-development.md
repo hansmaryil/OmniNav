@@ -9,16 +9,22 @@ poster: "Tiffany Cheung"
 To interface between Google Maps and the OmniNav Belt, a smartphone application is developed. At the moment, the application is only being developed on Android.
 
 Previously, in December, the functionalities of the application included:
+
 - Accepting starting and ending location inputs
 - Calculating the quickest walking route using Google Maps’ API
     - Draws the route on the map
     - Displays the first instruction on the interface
 
 A screen capture of the application can be seen below:
+
 ![App Screen Capture](/images/blog/2017-01-22/image_1.tif)
 
 The user interface (UI) has been updated in January as seen in the screen captures below:
+
+| ![App Updated Screen Capture_1](/images/blog/2017-01-22/image_2.png)  | ![App Updated Screen Capture_2](/images/blog/2017-01-22/image_3.png =20x100) |
+
 ![App Updated Screen Capture_1](/images/blog/2017-01-22/image_2.png =20x100) ![App Updated Screen Capture_2](/images/blog/2017-01-22/image_3.png =20x100)
+
 ![App Updated Screen Capture_3](/images/blog/2017-01-22/image_4.png =20x100) ![App Updated Screen Capture_4](/images/blog/2017-01-22/image_5.png =20x100)
 
 The updated application has implemented the following new functionalities:
