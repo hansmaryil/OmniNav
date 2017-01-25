@@ -17,15 +17,13 @@ Previously, in December, the functionalities of the application included:
 
 A screen capture of the application can be seen below:
 
-![App Screen Capture](/images/blog/2017-01-22/image_1.tif)
+<img src="/images/blog/2017-01-22/image_1.tif" alt="OLD App Screen Capture" width="40" height="100" align="center">
 
 The user interface (UI) has been updated in January as seen in the screen captures below:
 
-| ![App Updated Screen Capture_1](/images/blog/2017-01-22/image_2.png)  | ![App Updated Screen Capture_2](/images/blog/2017-01-22/image_3.png =20x100) |
+<img src="/images/blog/2017-01-22/image_2.png" alt="App Updated Screen Capture_1" width="40" height="100"> <img src="/images/blog/2017-01-22/image_3.png" alt="App Updated Screen Capture_3" width="40" height="100">
 
-![App Updated Screen Capture_1](/images/blog/2017-01-22/image_2.png =20x100) ![App Updated Screen Capture_2](/images/blog/2017-01-22/image_3.png =20x100)
-
-![App Updated Screen Capture_3](/images/blog/2017-01-22/image_4.png =20x100) ![App Updated Screen Capture_4](/images/blog/2017-01-22/image_5.png =20x100)
+<img src="/images/blog/2017-01-22/image_4.png" alt="App Updated Screen Capture_4" width="40" height="100"> <img src="/images/blog/2017-01-22/image_5.png" alt="App Updated Screen Capture_5" width="40" height="100">
 
 The updated application has implemented the following new functionalities:
 - Voice recognition: allows voice typing of the destination
