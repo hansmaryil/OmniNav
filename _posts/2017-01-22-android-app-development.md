@@ -26,13 +26,14 @@ The user interface (UI) has been updated in January as seen in the screen captur
 <div style="display: flex; justify-content: center;">
 	<img src="/images/blog/2017-01-22/image_2.png" alt="App Updated Screen Capture_1" width="30%" height="30%" style="padding:20px" /> <img src="/images/blog/2017-01-22/image_3.png" alt="App Updated Screen Capture_3" width="30%" height="30%" style="padding:20px" />
 </div>
-<hr>
+
 <div style="display: flex; justify-content: center;">
 	<img src="/images/blog/2017-01-22/image_4.png" alt="App Updated Screen Capture_4" width="30%" height="30%" style="padding:20px" /> <img src="/images/blog/2017-01-22/image_5.png" alt="App Updated Screen Capture_5" width="30%" height="30%" style="padding:20px" />
 </div>
 
 
 The updated application has implemented the following new functionalities:
+
 - Voice recognition: allows voice typing of the destination
 - Text-to-speech: allows audio feedback of the current direction 
 - Current location set as the starting location by default
