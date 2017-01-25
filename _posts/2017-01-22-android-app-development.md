@@ -18,17 +18,17 @@ Previously, in December, the functionalities of the application included:
 A screen capture of the application can be seen below:
 
 <div style="display: flex; justify-content: center;">
-	<img src="/images/blog/2017-01-22/image_1.tif" alt="OLD App Screen Capture" width="15%" height="15%" padding="20" />
+	<img src="/images/blog/2017-01-22/image_1.tif" alt="OLD App Screen Capture" width="25%" height="25%" padding="20" />
 </div>
 
 The user interface (UI) has been updated in January as seen in the screen captures below:
 
 <div style="display: flex; justify-content: center;">
-	<img src="/images/blog/2017-01-22/image_2.png" alt="App Updated Screen Capture_1" width="15%" height="15%" style="padding:20px" /> <img src="/images/blog/2017-01-22/image_3.png" alt="App Updated Screen Capture_3" width="15%" height="15%" style="padding:20px" />
+	<img src="/images/blog/2017-01-22/image_2.png" alt="App Updated Screen Capture_1" width="25%" height="25%" style="padding:20px" /> <img src="/images/blog/2017-01-22/image_3.png" alt="App Updated Screen Capture_3" width="25%" height="25%" style="padding:20px" />
 </div>
 
 <div style="display: flex; justify-content: center;">
-	<img src="/images/blog/2017-01-22/image_4.png" alt="App Updated Screen Capture_4" width="15%" height="15%" style="padding:20px" /> <img src="/images/blog/2017-01-22/image_5.png" alt="App Updated Screen Capture_5" width="15%" height="15%" style="padding:20px" />
+	<img src="/images/blog/2017-01-22/image_4.png" alt="App Updated Screen Capture_4" width="25%" height="25%" style="padding:20px" /> <img src="/images/blog/2017-01-22/image_5.png" alt="App Updated Screen Capture_5" width="25%" height="25%" style="padding:20px" />
 </div>
 
 
