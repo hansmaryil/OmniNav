@@ -18,7 +18,7 @@ Previously, in December, the functionalities of the application included:
 A screen capture of the application can be seen below:
 
 <div style="display: flex; justify-content: center;">
-	<img src="/images/blog/2017-01-22/image_1.tif" alt="OLD App Screen Capture" width="25%" height="25%" padding="20" />
+	<img src="/images/blog/2017-01-22/image_1.png" alt="OLD App Screen Capture" width="25%" height="25%" padding="20" />
 </div>
 
 The user interface (UI) has been updated in January as seen in the screen captures below:
