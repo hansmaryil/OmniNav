@@ -17,18 +17,34 @@ Previously, in December, the functionalities of the application included:
 
 A screen capture of the application can be seen below:
 
-<img src="/images/blog/2017-01-22/image_1.tif" alt="OLD App Screen Capture" width="40" height="100">
+
+<div style="display: flex; justify-content: center;">
+	<img src="/images/blog/2017-01-22/image_1.tif" alt="OLD App Screen Capture" width="30%" height="30%" />
+</div>
+
 
 
 The user interface (UI) has been updated in January as seen in the screen captures below:
 
-<img src="/images/blog/2017-01-22/image_2.png" alt="App Updated Screen Capture_1" width="30%" height="30%" align="middle">
 
-<img src="/images/blog/2017-01-22/image_3.png" alt="App Updated Screen Capture_3" width="30%" height="30%" align="middle">
 
-<img src="/images/blog/2017-01-22/image_4.png" alt="App Updated Screen Capture_4" width="30%" height="30%" align="middle">
+<div style="display: flex; justify-content: center;">
+	<img src="/images/blog/2017-01-22/image_2.png" alt="App Updated Screen Capture_1" width="30%" height="30%" />
+</div>
 
-<img src="/images/blog/2017-01-22/image_5.png" alt="App Updated Screen Capture_5" width="30%" height="30%" align="middle">
+<div style="display: flex; justify-content: center;">
+	<img src="/images/blog/2017-01-22/image_3.png" alt="App Updated Screen Capture_3" width="30%" height="30%" align="middle" />
+</div>
+
+<div style="display: flex; justify-content: center;">
+	<img src="/images/blog/2017-01-22/image_4.png" alt="App Updated Screen Capture_4" width="30%" height="30%" align="middle" />
+</div>
+
+<div style="display: flex; justify-content: center;">
+	<img src="/images/blog/2017-01-22/image_5.png" alt="App Updated Screen Capture_5" width="30%" height="30%" align="middle" />
+</div>
+
+
 
 
 The updated application has implemented the following new functionalities:
@@ -41,4 +57,4 @@ The updated application has implemented the following new functionalities:
 
 The first screen capture is the home screen of the application. By default, the starting location is set as user’s starting location but can be changed. The destination can be entered using the keyboard or by audio input. The application accepts the destination by voice (as seen in the second screen capture) when the microphone is pressed. The user can choose one of the two modes of transportation: walking and transit. The application then makes a call to Google Maps’ API which returns the quickest route. The application is redirected to the third screen capture. The third screen displays the current direction and the map of the route. When the instruction is clicked, the fourth screen capture is displayed which outlines all the directions involved in the route.
 
-The new update to the application accomplishes all the basic functionalities using the touch screen interface. For the next update of the application, the application is expected to incorporate control of the entire application using only voice commands.
+The new update to the application accomplishes all the basic functionalities using the touch screen interface. For the next update of the application, we will incorporate control of the entire application using only voice commands.
