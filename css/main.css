@@ -71,6 +71,10 @@ div#card {
   *display:inline;
   *zoom:1;
 }
+
+.img-cursor-setting {
+  cursor: pointer;
+}
 /* FEATURETTE
 -------------------------------------------------- */
 /*.featurette-divider {
