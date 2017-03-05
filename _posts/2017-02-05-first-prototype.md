@@ -14,7 +14,7 @@ header_content: |
                         <h1>Building The First Prototype</h1>
                         <hr class="small">
                         <h2 class="subheading">It's time to start prototyping!</h2>
-                        <p class="post-meta">Posted by {{ page.poster }} on {{ page.date | date_to_long_string }}</p>
+                        <p class="post-meta">Posted by {{ poster }} on {{ date | date_to_long_string }}</p>
                     </div>
                 </div>
             </div>
