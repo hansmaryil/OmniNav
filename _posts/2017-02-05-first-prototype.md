@@ -5,11 +5,11 @@ subtitle: "It's time to start prototyping!"
 date: 2017-02-05
 poster: "Aditya Junnarkar"
 header_content: |
-    <header class="intro-header" style="background-image: url('/images/background/bg_12.jpg')">
+    <header class="intro-header" style="background-image: url('/images/background/bg_10.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="post-heading">
+                    <div class="site-heading">
                         <h1>Building The First Prototype</h1>
                         <h2 class="subheading">It's time to start prototyping!</h2>
                         <p class="post-meta">Posted by Aditya Junnarkar on February 5, 2017</p>
