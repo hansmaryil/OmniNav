@@ -6,18 +6,7 @@ date: 2017-02-05
 poster: "Aditya Junnarkar"
 header_content: |
     <!-- Page Header -->
-    <header class="intro-header" style="background-image: url('/images/background/bg_17.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Our Blog</h1>
-                        <hr class="small">
-                        <span class="subheading">What We're Up To</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <header style="background-image: url('/images/background/bg_17.jpg')">
     </header>
 ---
 
