@@ -35,5 +35,3 @@ As shown in the pictures below, the pouch contains small wire channels to connec
 <br>
 
 All in all, the pouch is nearly ready to be printed (some dimensional verification is still needed on the wire channels), and the belt will be under construction in the following week.
-
-<hr>

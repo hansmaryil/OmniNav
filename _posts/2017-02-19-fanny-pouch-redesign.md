@@ -27,6 +27,7 @@ Unfortunately, while we were working on wiring the previous pouch design ([the o
 
 We had to redesign the pouch to accommodate for unexpected varying lengths in the wires.  We initially thought that the wire channels would be required to keep the components in place, and assist with organizing the layout.  However, since we used glue to seal the solder joints and improve mechanical stability, the wire channels simply added complexity where none was needed.
 
+<br>
 
 # Positive Points from this Setback
 
@@ -35,7 +36,5 @@ For this initial prototype the dimensions remained largely unchanged, since the 
 Here's a look at our newly designed pouch (we know, it's lackluster in comparison to the old one, but hey it's bright orange now!):
 
 <div style="display: flex; justify-content: center;">
-    <img src="/images/blog/2017-02-19/pouch_closeup.jpg" alt="Redesigned Pouch - Closeup" width="25%" height="25%" style="padding:20px" />
+    <img src="/images/blog/2017-02-19/pouch_closeup.jpg" alt="Redesigned Pouch - Closeup" width="75%" height="75%" style="padding:20px" />
 </div>
-
-<hr>
