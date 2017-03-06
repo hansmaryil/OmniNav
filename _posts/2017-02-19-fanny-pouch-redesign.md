@@ -36,5 +36,5 @@ For this initial prototype the dimensions remained largely unchanged, since the 
 Here's a look at our newly designed pouch (we know, it's lackluster in comparison to the old one, but hey it's bright orange now!):
 
 <div style="display: flex; justify-content: center;">
-    <img src="/images/blog/2017-02-19/pouch_closeup.jpg" alt="Redesigned Pouch - Closeup" width="100%" height="100%" style="padding:20px" />
+    <img src="/images/blog/2017-02-19/pouch_closeup.jpg" alt="Redesigned Pouch - Closeup" width="75%" height="75%" style="padding:20px" />
 </div>

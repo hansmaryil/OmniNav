@@ -232,5 +232,5 @@ ul.social-buttons li a:active {
 }
 
 .PageNavigation .next {
-  float: right;
+  text-align: right;
 }
