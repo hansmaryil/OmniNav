@@ -2,8 +2,8 @@
 layout: post
 title: "Fanny Pouch Redesign"
 subtitle: "We screwed up :("
-date: 2017-02-12
-poster: "Tiffany Cheung"
+date: 2017-02-19
+poster: "Robert Sosiak"
 header_content: |
     <header class="intro-header" style="background-image: url('/images/background/bg_18.jpg')">
         <div class="container">
@@ -22,13 +22,14 @@ header_content: |
 
 # We Dun Goofed
 
-Unfortunately, while we were working on the wiring the previous pouch design ([the one with multiple channels for the wires to pass through]({% post_url 2017-01-29-fanny-pouch-mechanical-design %})), we found glaring issues that required our immediate attention.
+Unfortunately, while we were working on wiring the previous pouch design ([the one with multiple channels for the wires to pass through]({% post_url 2017-01-29-fanny-pouch-mechanical-design %})), we found glaring issues that required our immediate attention.
 
-We had to redesign the pouch to accommodate for unexpected varying lengths in the wires.  It was initially thought that the wire channels would be required to keep the components in place, and assist with organizing the layout.  However, since glue was used to seal the solder joints and improve mechanical stability, the wire channels simply added complexity where none was needed.
+We had to redesign the pouch to accommodate for unexpected varying lengths in the wires.  We initially thought that the wire channels would be required to keep the components in place, and assist with organizing the layout.  However, since we used glue to seal the solder joints and improve mechanical stability, the wire channels simply added complexity where none was needed.
 
 # Positive Points from this Setback
 
 For this initial prototype the dimensions remained largely unchanged, since the completed wiring locked the components in place.  However, we reduced the thickness by around 5 [mm], since the motor is now a part of the pouch itself and no longer a separate case.  To help with testing, a hole for an external power switch was also added.  These added features of our design will make testing much easier.
 
-##### Here's a look at our newly designed pouch (we know, it's lackluster in comparison to the old one, but hey it's bright orange now!):
+Here's a look at our newly designed pouch (we know, it's lackluster in comparison to the old one, but hey it's bright orange now!):
 
+<hr>
