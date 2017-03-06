@@ -48,7 +48,7 @@ The user interface (UI) has been updated in January as seen in the screen captur
 The updated application has implemented the following new functionalities:
 
 - Voice recognition: allows voice typing of the destination
-- Text-to-speech: allows audio feedback of the current direction 
+- Text-to-speech: allows audio feedback of the current direction
 - Current location set as the starting location by default
 - Walking and transit routes
 - A new screen displaying the current direction and the map of the route
