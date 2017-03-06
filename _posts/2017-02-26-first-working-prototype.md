@@ -29,6 +29,5 @@ We also tested the finished prototype for basic functionality (motors vibrating,
 For those of you curious as to how the prototype actually looks, here's a bird's eye view:
 
 <div style="display: flex; justify-content: center;">
-    <img src="/images/blog/2017-02-26/prototype_birds_eye_view.jpg" alt="Bird's Eye View of First Completed Prototype" width="25%" height="25%" style="padding:20px" />
-    <figcaption>Bird's Eye View of First Completed Prototype</figcaption>
+    <img src="/images/blog/2017-02-26/prototype_birds_eye_view.jpg" alt="Bird's Eye View of First Completed Prototype" width="50%" height="50%" style="padding:20px" />
 </div>

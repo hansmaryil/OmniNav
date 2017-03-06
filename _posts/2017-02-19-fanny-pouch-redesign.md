@@ -35,8 +35,7 @@ For this initial prototype the dimensions remained largely unchanged, since the 
 Here's a look at our newly designed pouch (we know, it's lackluster in comparison to the old one, but hey it's bright orange now!):
 
 <div style="display: flex; justify-content: center;">
-    <img src="/images/blog/2017-02-26/pouch_closeup.jpg" alt="Redesigned Pouch - Closeup" width="25%" height="25%" style="padding:20px" />
-    <figcaption>Closeup of Redesigned Fanny Pouch w/ Wiring Done</figcaption>
+    <img src="/images/blog/2017-02-19/pouch_closeup.jpg" alt="Redesigned Pouch - Closeup" width="25%" height="25%" style="padding:20px" />
 </div>
 
 <hr>
