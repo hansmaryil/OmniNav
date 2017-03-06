@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fanny Pouch Redesign"
-subtitle: "We screwed up :("
+subtitle: "Redesigning to accomodate for wiring difficulties"
 date: 2017-02-19
 poster: "Robert Sosiak"
 header_content: |
@@ -11,7 +11,7 @@ header_content: |
                 <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
                     <div class="post-heading">
                         <h1>Fanny Pouch Redesign</h1>
-                        <h2 class="subheading">We screwed up :(</h2>
+                        <h2 class="subheading">Redesigning to accomodate for wiring difficulties</h2>
                         <p class="post-meta">Posted by Robert Sosiak on February 19, 2017</p>
                     </div>
                 </div>
@@ -21,7 +21,7 @@ header_content: |
 ---
 
 
-# We Dun Goofed
+# Pinpointing the Issue
 
 Unfortunately, while we were working on wiring the previous pouch design ([the one with multiple channels for the wires to pass through]({% post_url 2017-01-29-fanny-pouch-mechanical-design %})), we found glaring issues that required our immediate attention.
 
