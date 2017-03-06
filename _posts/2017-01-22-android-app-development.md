@@ -57,5 +57,3 @@ The updated application has implemented the following new functionalities:
 The first screen capture is the home screen of the application. By default, the starting location is set as user’s starting location but can be changed. The destination can be entered using the keyboard or by audio input. The application accepts the destination by voice (as seen in the second screen capture) when the microphone is pressed. The user can choose one of the two modes of transportation: walking and transit. The application then makes a call to Google Maps’ API which returns the quickest route. The application is redirected to the third screen capture. The third screen displays the current direction and the map of the route. When the instruction is clicked, the fourth screen capture is displayed which outlines all the directions involved in the route.
 
 The new update to the application accomplishes all the basic functionalities using the touch screen interface. For the next update of the application, we will incorporate control of the entire application using only voice commands.
-
-<hr>

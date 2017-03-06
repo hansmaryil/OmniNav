@@ -36,5 +36,3 @@ The 3-D printed motor casing with the vibration motor can be seen below.
 <br>
 
 With all the components at hand, we are all set to start building our first functioning prototype!
-
-<hr>

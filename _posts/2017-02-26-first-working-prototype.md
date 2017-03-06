@@ -20,3 +20,15 @@ header_content: |
     </header>
 ---
 
+# We made it!
+
+Yep, we finally did it! After several days of working in the lab, we completed the soldering and wiring of all the component required for this first prototype.  The vibration motor wiring was definitely the most painful :(
+
+We also tested the finished prototype for basic functionality (motors vibrating, bluetooth and IMU components working, etc).  We can now begin testing.
+
+For those of you curious as to how the prototype actually looks, here's a bird's eye view:
+
+<div style="display: flex; justify-content: center;">
+    <img src="/images/blog/2017-02-26/prototype_birds_eye_view.jpg" alt="Bird's Eye View of First Completed Prototype" width="25%" height="25%" style="padding:20px" />
+    <figcaption>Bird's Eye View of First Completed Prototype</figcaption>
+</div>
