@@ -157,7 +157,7 @@ div#card {
 .profile-header-img > img.img-circle {
     width: 189px;
     height: 200px;
-    border: 4px solid #5FC4F6;
+    border: 4px solid #990000;
     margin-left: -10px;
 }
 
@@ -181,7 +181,7 @@ div#card {
 }
 
 .label.label-default.rank-label {
-    background-color: rgb(95, 196, 246);
+    background-color: rgb(153,0,0);
     padding: 5px 10px 5px 10px;
     border-radius: 27px;
 }
@@ -211,7 +211,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #5FC4F6;
+  background-color: #990000;
 }
 
 
