@@ -128,7 +128,35 @@ div#card {
   .navbar-wrapper .navbar {
     border-radius: 4px;
   }
+/*Highlight colour
+--------------------------------------------------*/
+::selection {
+    background-color: #352e7e;
+    color: #fff;
+}
 
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #352e7e;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #352e7e;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: #352e7e;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #352e7e;
+    color: #fff;
+}
 
 /* Profile image component
 -------------------------------------------------- */
@@ -195,7 +223,7 @@ ul.social-buttons {
 
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: #990000;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -211,7 +239,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #990000;
+  background-color: #db0000;
 }
 
 
