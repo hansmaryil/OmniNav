@@ -45,7 +45,9 @@ hr.small {
   border-width: 4px;
   border-color: red;
 }
-
+.button-width{
+    width: auto;
+}
 .intro-header {
   background-color: #777777;
   background: no-repeat center center;
