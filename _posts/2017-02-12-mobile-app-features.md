@@ -5,7 +5,7 @@ subtitle: "Update on added functionality"
 date: 2017-02-12
 poster: "Tiffany Cheung"
 header_content: |
-    <header class="intro-header" style="background-image: url('/images/background/bg_20.jpg')">
+    <header class="intro-header" style="background-image: url('/images/background/bg_21.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
