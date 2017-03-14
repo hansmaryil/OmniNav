@@ -12,15 +12,14 @@ layout: default
   {% if page.previous.url %}    
     <a href="{{page.previous.url}}">
     	<button class="prev btn btn-primary btn-danger button-style">
-    		<span class="glyphicon glyphicon-circle-arrow-left"></span> {{page.previous.title}}
+    		<a href="{{page.previous.url}}"><span class="glyphicon glyphicon-circle-arrow-left"></span> {{page.previous.title}} </a>
     	</button>
     </a>
   {% endif %}
   {% if page.next.url %}
-    <a href="{{page.next.url}}">
-    	<button class="next btn btn-primary btn-danger button-style2"> {{page.next.title}} <span class="glyphicon glyphicon-circle-arrow-right"></span>
-    	</button>
-    </a>
+ 	<button class="next btn btn-primary btn-danger button-style2"><a href="{{page.next.url}}"> {{page.next.title}} <span class="glyphicon glyphicon-circle-arrow-right"></span> </a>
+	</button>
+    
     
   {% endif %}
 </div>
