@@ -34,5 +34,5 @@ Additionally, we got the app to communicate with the Bluetooth module in the bel
 Here's a (clearly candid) photo of Tiffany wearing the belt just before we went outside to test it.
 
 <div style="display: flex; justify-content: center;">
-    <img src="/images/blog/2017-03-05/tiffany_wearing_belt.png" alt="candid photo of Tiffany wearing the belt" style="padding:20px" />
+    <img src="/images/blog/2017-03-05/tiffany_wearing_belt.png" alt="candid photo of Tiffany wearing the belt" width="40%" height="40%" style="padding:20px" />
 </div>
