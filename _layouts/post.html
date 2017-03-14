@@ -9,8 +9,7 @@ layout: default
 <hr>
 
 <div class="PageNavigation">
-  {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% if page.previous.url %}    
     <a href="{{page.previous.url}}" class=" prev btn btn-primary btn-danger"><span class="glyphicon glyphicon-hand-left"></span> {{page.previous.title}}</a>
   {% endif %}
   {% if page.next.url %}
