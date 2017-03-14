@@ -30,33 +30,9 @@ h5{
     font-size: 110%; 
     text-transform: lowercase;
 }
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 20;
-    height:20px;
+.link-change a:focus,a:hover{
+    color: #990000;
 }
-
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-    padding-right: 0;
-    padding-left: 0;
-}
-.navbar-wrapper .navbar {
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-    width: auto;
-}
-
-
 /* FEATURETTE
 -------------------------------------------------- */
 /*.featurette-divider {
