@@ -27,11 +27,27 @@ h5{
 .span-font{
     font-family: Baloo,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; 
     font-weight: lighter; 
-    font-size: 110%; 
-    text-transform: lowercase;
+    font-size: 110%;
 }
-.link-change a:focus,a:hover{
+a {
+    text-decoration: none;
+    color: #fff;    
+}
+a.link-change:link{
+    text-decoration: none;
+    color: #fff;
+}
+a.link-change:visited{
+    text-decoration: none;
+    color: #fff;    
+}
+a.link-change:hover{
+    text-decoration: none;
     color: #990000;
+}
+a.link-change:active{
+    text-decoration: none;
+    color: #990000;       
 }
 /* FEATURETTE
 -------------------------------------------------- */
