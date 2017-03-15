@@ -195,7 +195,7 @@ ul.social-buttons li a:active {
 .PageNavigation2 a {
     display: block;
     width: 50%;
-    float: left;
+    float: right;
     margin: 1em 0;
 }
 
