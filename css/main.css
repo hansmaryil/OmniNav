@@ -178,6 +178,27 @@ ul.social-buttons li a:active {
 
 /* Blog Stuff
 -------------------------------------------------- */
+.PageNavigation1, .PageNavigation2 {
+    font-size: 14px;
+    display: block;
+    width: auto;
+    overflow: hidden;
+}
+
+.PageNavigation1 a {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 1em 0;
+}
+
+.PageNavigation2 a {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 1em 0;
+}
+
 
 /* Footer
 -------------------------------------------------- */
