@@ -188,11 +188,11 @@ ul.social-buttons li a:active {
 .PageNavigation a {
     display: block;
     width: 50%;
+    float: left;
     margin: 1em 0;
 }
 
 .PageNavigation .next {
-    float: right;
     text-align: right;    
 }
 
