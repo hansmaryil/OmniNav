@@ -22,7 +22,7 @@ header_content: |
 
 # We made it!
 
-Yep, we finally did it! After several days of working in the lab, we completed the soldering and wiring of all the component required for this first prototype.  The vibration motor wiring was definitely the most painful :(
+Yep, we finally did it! After several days of working in the lab, we completed the soldering and wiring of all the component required for this first prototype.  The vibration motor wiring was definitely the most painful <i class="em em-tired_face"></i>
 
 We also tested the finished prototype for basic functionality (motors vibrating, bluetooth and IMU components working, etc).  We can now begin testing.
 
