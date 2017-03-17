@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8">        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <!--noptimize--><!--
         This site was designed by 
         ||       |     ||\          /|
@@ -12,11 +15,8 @@
         ||       |     ||     \/     |
         ||       |     ||            |
         ||       |  ■  ||            | ■
-                
+        https://www.linkedin.com/in/hanan-maryil/
         --><!--noptimize-->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="">
         <!--Page title and logo icon-->
@@ -28,6 +28,8 @@
         <link href="css/clean-blog.min.css" rel="stylesheet">
         <!-- Navbar CSS -->
         <link href="css/nav.min.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/font-awesome-animation.min.css">
         
         <!-- JS -->
         <!-- Latest compiled and minified CSS -->
@@ -41,8 +43,7 @@
         <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Baloo|Raleway" rel="stylesheet">
-        
-        <link href="css/hover.css" rel="stylesheet" media="all">
+
     </head>
 
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -102,9 +103,8 @@
 
         <!-- REST OF THE CONTENT -->
         <div class="container">
-
             <!-- BACKGROUND INFO -->
-            <div class="row featurette" id="project-summary">
+            <div class="row featurette div-shadow fadeInLeftBig" id="project-summary">
                 <div class="col-md-12 col-xs-12 col-sm-12">
                     <h2 class="featurette-heading">What makes this project interesting? <span class="text-muted">The fact that we're helping people, of course.</span></h2>
                     <p class="lead">Currently, the World Health Organization estimates the number of visually impaired people in the world to be 285 million, 39 million of which are fully blind.  This population of the world does not have easy access to new technologies that assist with navigation such as Google Maps, or even just the ability to read navigational signs.</p>
@@ -114,12 +114,39 @@
             <hr class="featurette-divider">
 
             <!-- SUMMARY -->
-            <div class="row featurette">
+            <div class="row featurette div-shadow fadeInRightBig">
                 <div class="col-md-12 col-xs-12 col-sm-12">
                     <h2 class="featurette-heading">Our solution? <span class="text-muted">Simple, yet effective.</span></h2>
                     <p class="lead">A belt specifically designed to assist the visually impaired with navigation. We are developing an Android app which takes directional information using voice commands and conveys the required direction via Bluetooth to four vibration motors placed at cardinal directions on the belt.</p>
-                </div>
+                </div>                
             </div>
+            <!-- Carousel
+            ==================== -->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="images/details/just-belt.png" alt="The Belt">                      
+                </div>
+                <div class="item">
+                  <img src="images/details/belt-on.png" alt="The belt in action">
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div><!-- /.carousel -->
 
             <hr class="featurette-divider">
 
@@ -128,36 +155,33 @@
                     <h2 class="featurette-heading">How does it work?</h2>
                 </div>
                 <div class="row project-details">
-                    <div class="col-md-4 div-padding">
-                        <img src="images/details/phone_app.png" alt="Astar Microprocessor" width="140" height="140">
+                    <div class="col-md-4 div-padding border">
+                        <i class="fa fa-android fa-5x faa-pulse animated-hover android-font"></i>
                         <h2>Android App</h2>
                         <p class="lead">interfaces between the user and the belt</p>
                     </div>
-                    <div class="col-md-4 div-padding">
-                        <img src="images/details/bluetooth.png" alt="Bluetooth" width="140" height="140">
+                    <div class="col-md-4 div-padding border">
+                        <i class="fa fa-bluetooth fa-5x faa-pulse animated-hover bluetooth-font"></i>
                         <h2>Bluetooth</h2>
                         <p class="lead">transmits data to the belt from the Android App</p>
                     </div>
-                    <div class="col-md-4 div-padding">
-                        <img src="images/details/microcontroller_icon.png" alt="Micro" width="140" height="140">
+                    <div class="col-md-4 div-padding border">
+                        <i class="fa fa-gamepad fa-5x faa-shake animated-hover controlla-font"></i>
                         <h2>Microcontroller</h2>
                         <p class="lead">handles motor vibration levels (PWM), communication protocols, and component integration</p>
-                    </div>
-                </div>
-
-                <div class="row project-details">
-                    <div class="col-md-4 div-padding">
-                        <img src="images/details/vib_motor.jpg" alt="Vibration Motors" width="140" height="140">
+                    </div>                
+                    <div class="col-md-4 div-padding border">
+                        <i class="fa fa-cog fa-5x faa-spin animated-hover motor-font"></i>
                         <h2>Vibration Motors</h2>
                         <p class="lead">provides haptic feedback in varying intensities</p>
                     </div>
-                    <div class="col-md-4 div-padding">
-                        <img src="images/details/imu_1.jpg" alt="IMU" width="140" height="140">
+                    <div class="col-md-4 div-padding border">
+                        <i class="fa fa-compass fa-5x faa-spin animated-hover compass-font"></i>
                         <h2>IMU</h2>
                         <p class="lead">returns user's orientation relative to True North (yaw)</p>
                     </div>
-                    <div class="col-md-4 div-padding">
-                        <img src="images/details/3d.jpg" alt="3D printer" width="140" height="140">
+                    <div class="col-md-4 div-padding border">
+                        <i class="fa fa-print fa-5x faa-float animated-hover print-font"></i>
                         <h2>3D Printing</h2>
                         <p class="lead">used for motor and electrical component casing</p>
                     </div>
@@ -165,6 +189,7 @@
             </div>
 
             <hr class="featurette-divider">
+
 
             <!-- Meet the Team -->            
             <div id="team" class="row featurette">
@@ -174,7 +199,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 team-header-container">
-                        <img class="team-header-img center-block" src="images/team/team_pic.jpg" width="100%"/>
+                        <img class="team-header-img center-block border" src="images/team/team_pic.jpg" width="100%"/>
                     </div>
                 </div>
                 <div class="row">
@@ -187,7 +212,7 @@
                             </div>
                             <p class="text-muted">Mobile Development Lead</p>
                             <ul class="list-inline social-buttons">
-                                <li><a href="https://www.linkedin.com/in/tiffany-cheung-494a4093" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <li><a href="https://www.linkedin.com/in/tiffany-cheung-494a4093" target="_blank"><i class="fa fa-linkedin faa-pulse animated-hover"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -201,7 +226,7 @@
                             </div>
                             <p class="text-muted">Software Development Lead</p>
                             <ul class="list-inline social-buttons">
-                                <li><a href="https://www.linkedin.com/in/hansmaryil" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <li><a href="https://www.linkedin.com/in/hansmaryil" target="_blank"><i class="fa fa-linkedin faa-pulse animated-hover"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -215,7 +240,7 @@
                             </div>
                             <p class="text-muted">Electrical and Mechanical Lead</p>
                             <ul class="list-inline social-buttons">
-                                <li><a href="https://www.linkedin.com/in/robert-sosiak-26b515109" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <li><a href="https://www.linkedin.com/in/robert-sosiak-26b515109" target="_blank"><i class="fa fa-linkedin faa-pulse animated-hover"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -229,7 +254,7 @@
                             </div>
                             <p class="text-muted">Project and Firmware Lead</p>
                             <ul class="list-inline social-buttons">
-                                <li><a href="https://ca.linkedin.com/in/aditya-junnarkar-4a430852" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <li><a href="https://ca.linkedin.com/in/aditya-junnarkar-4a430852" target="_blank"><i class="fa fa-linkedin faa-pulse animated-hover"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -256,6 +281,7 @@
         <!-- Custom JS -->
         
         <script src="js/main.js"></script>
+        
 
         
 
