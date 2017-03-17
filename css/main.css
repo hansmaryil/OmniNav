@@ -70,6 +70,16 @@ a.link-change:active{
     transition-duration: .3s;
     transition-timing-function: linear;
 }
+.border2:hover{
+    background-color: #f7f7f7;
+    box-shadow: 0 0 0 10px #990000;
+    
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+}
+
+
 /*Bluetooth div*/
 .bluetooth-font {
     color: #287aa9;
@@ -91,6 +101,23 @@ a.link-change:active{
     color: #990000;
 }
 
+.video-div {
+  padding: 20px;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 /*I've got eyes on you O-O */
 
 /* FEATURETTE
