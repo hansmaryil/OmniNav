@@ -26,4 +26,4 @@ We've finally reached the day before the Symposium.  Tomorrow's demo marks the c
 
 Check out our booth (#14) at Davis Centre, Waterloo, ON, tomorrow, March, 17th, 2017 between 1 and 5 pm.  Also, don't forget to vote for us in the People's Choice Award.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A3Bob591aWs" frameborder="0" allowfullscreen></iframe>
+<div class="videoWrapper"><iframe class="center-block border2" width="760" height="415" src="https://www.youtube.com/embed/A3Bob591aWs" frameborder="0" allowfullscreen></iframe></div>
