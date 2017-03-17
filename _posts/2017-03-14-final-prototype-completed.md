@@ -22,7 +22,7 @@ header_content: |
 
 Today marks the date we started to put our final prototype together.  The shipment with our parts which was supposed to arrive last week were finally delivered.  We also were able to obtain the 3D printed casings required to house the vibration motors as well as the prototyping board containing all our main circuitry (parts pictured below).
 
-It took a full day of soldering and problem solving minor issues that kept popping up, but we finally completed the final prototype and are proud to say that it works as required.  Below, you can see the main pouch that houses the prototyping board.
+It took a full day of soldering and problem solving minor issues that kept popping up, but we finally completed the final prototype and are proud to say that it works as required.  Below, you can see the main pouch that houses the prototyping board.  As you can probably tell, we've conserved a lot more space in this design by using a prototyping board to consolidate the various components.  THe wiring was also a lot more efficient this time around and the overall design a lot more polished and presentable.
 
 
 <div style="display: flex; justify-content: center;">
