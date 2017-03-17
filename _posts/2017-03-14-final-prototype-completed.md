@@ -3,7 +3,7 @@ layout: post
 title: "Final Prototype Completed"
 subtitle: "Finished product built and tested"
 date: 2017-03-14
-poster: "Aditya Junnarkar"
+poster: "Hans Maryil"
 header_content: |
     <header class="intro-header" style="background-image: url('/images/background/bg_21.jpg')">
         <div class="container">
@@ -26,18 +26,19 @@ It took a full day of soldering and problem solving minor issues that kept poppi
 
 
 <div style="display: flex; justify-content: center;">
-    <img src="/images/blog/2017-03-14/main_pouch.jpg" alt="final prototype main pouch" width="40%" height="40%" style="padding:20px" />
+    <img src="/images/blog/2017-03-14/main_pouch.jpg" alt="final prototype main pouch" width="75%" height="75%" style="padding:20px" />
 </div>
 
 The motor casings were also wired up and connected to the main pouch pictured above.  The connectors used are designed to take the strain placed on belt without transferring this unwanted stress onto the wires themselves.  This keeps our device functional even in more adverse working conditions.  Below, you can see how one of the motor casings are wired and visualize how the connectors absorb most of the unwanted stresses.
 
 
 <div style="display: flex; justify-content: center;">
-    <img src="/images/blog/2017-03-14/vibration_motor.jpg" alt="final prototype motor casing" width="40%" height="40%" style="padding:20px" />
+    <img src="/images/blog/2017-03-14/vibration_motor.jpg" alt="final prototype motor casing" width="75%" height="75%" style="padding:20px" />
 </div>
 
 
 A quick test of the integrated system - the vibration motors and the main pouch receiving directional commands from the Android App - proved that the device was fully functional as required.
 
+<hr>
 
-### Please stay tuned for more updates on our progress.  We'll be posting a video of the OmniNav belt in action soon!!!
+#### Please stay tuned for more updates on our progress.  We'll be posting a video of the OmniNav belt in action soon!!!
